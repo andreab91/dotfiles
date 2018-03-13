@@ -4,7 +4,9 @@ export GOPATH=~/go
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOPATH/bin
 
-source ~/.aliases
+alias v="vagrant"
+alias gdiff="git diff --color | diff-so-fancy"
+alias gpr="ggpur"
 
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 

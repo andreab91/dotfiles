@@ -30,7 +30,8 @@
 		"rel",
 		"build"
 	],
-	"font_size": 23,
+	"font_size": 20,
+	"font_face": "Source Code Pro",
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
@@ -77,5 +78,5 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_simple_full_screen": true,
-	"word_wrap": false
+	"word_wrap": true
 }

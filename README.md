@@ -5,7 +5,7 @@ This is a collection of dotfiles and scripts I use for customizing OS X to my li
 
 ```sh
 cd ~
-git clone https://github.com/AlessioCoser/dotfiles.git
+git clone https://github.com/andreab91/dotfiles.git
 cd dotfiles
 chmod a+x install
 ./install

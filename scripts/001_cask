@@ -14,6 +14,8 @@ echo ".... installing sublime text"
 brew cask install sublime-text
 echo ".... installing google-chrome"
 brew cask install google-chrome
+echo ".... installing firefox"
+brew cask install firefox
 echo ".... installing slack"
 brew cask install slack
 echo ".... installing virtualbox"
@@ -26,8 +28,8 @@ echo ".... installing docker"
 brew cask install docker
 echo ".... installing vlc"
 brew cask install vlc
-echo ".... installing chefdk"
-brew cask install chefdk
+# echo ".... installing chefdk"
+# brew cask install chefdk
 
 echo ".... brew cleanup"
 brew cleanup

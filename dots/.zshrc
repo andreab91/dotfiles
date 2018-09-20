@@ -1,19 +1,15 @@
 export ZSH=~/.oh-my-zsh
 
-export GOPATH=~/go
-export GOBIN=$GOPATH/bin
-export PATH=$PATH:$GOPATH/bin
-
-alias v="vagrant"
-alias gdiff="git diff --color | diff-so-fancy"
-alias gpr="ggpur"
+ZSH_THEME="robbyrussell"
 
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
-ZSH_THEME="robbyrussell"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+export PATH="/usr/local/Cellar:$PATH"
 
 MAILCHECK=0
 
-plugins=(git)
+plugins=(git sublime)
 
+source ~/.aliases
 source $ZSH/oh-my-zsh.sh
